@@ -12,7 +12,7 @@ if check=="ready":
         os.system("sudo nano /boot/grub/grub.conf")
     if bledit=="3":
         os.system("sudo nano /boot/limine.conf")
-    os.system("sudo pacman -Sy git")
+    os.system("sudo pacman -Sy git base-devel")
     os.system("git clone https://aur.archlinux.org/yay.git")
     os.system("cd yay && makepkg -si")
     os.system("yay -S firefox flatpak screenfetch tree htop partitionmanager plymouth vlc packagekit base-devel ark")
