@@ -27,7 +27,7 @@ sudo pacman -Sy git base-devel
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
-yay -S firefox flatpak neofetch screenfetch fastfetch tree htop btop partitionmanager plymouth vlc packagekit base-devel ark waybar hyprpaper thunar wofi
+yay -S firefox flatpak neofetch screenfetch fastfetch tree htop btop partitionmanager plymouth vlc packagekit base-devel ark waybar hyprpaper thunar wofi konsole dialog
 clear
 echo
 echo "Done!"
